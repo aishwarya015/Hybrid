@@ -1,0 +1,255 @@
+.input-container {
+  
+  display: flex;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  width: 35px;
+  margin-bottom: 40px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 100%;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 1px solid dodgerblue;
+}
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  width: 30px;
+}
+
+/* .fa {
+  display: inline-box;
+  width: 30px;
+  float: left;
+} */
+/* .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+} */
+
+/* .input-field:focus {
+  border: 2px solid dodgerblue;
+} */
+
+p, div {
+  font-family: Lato;
+}
+.Logo{
+  height: 55px;
+  width: 120px;
+  pointer-events: none;
+}
+
+h4{
+  /* font-family: inherit; */
+  font-family: sans-serif;
+  line-height: 1.1;
+  color: slategray;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+input .box{
+background-color: black;
+float: left;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #4A4E69; */
+  background-image: url(./Image/Zyter.jpg);
+  background-size: cover;
+}
+  
+div .cap img{
+  background-color: #fff;
+  width: 72%;
+  float: left;
+  border: 1px solid #ccc;
+  color: #F6AC64;
+  height: 40px;
+  letter-spacing: 9px;
+  color:black;
+  margin-bottom:15px;
+}
+/* .forgotpass{
+  border: 1px;
+} */
+/* div .captcha{
+  background-color: #fff;
+  width: 99px;
+  height: 40px;
+  float: top;
+  border: 1px solid #ccc;
+  color: black;
+  letter-spacing: 3px;
+} */
+.caption {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 555;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: rgba(0,0,0,.7);
+  padding: 15px 0 15px 50px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 480px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  /* border-radius: 6px; */
+  /* box-shadow: 0px 8px 36px #222; */
+  background: rgba(255,255,255,.9);
+  border: 1px solid #eee;
+  margin-left: 600px;
+  z-index: 555;
+  opacity:1;
+  ;
+}
+
+.form-wrapper > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+/* 
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+} */
+
+input {
+  padding: 5px 5px;
+  border: 3px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+  background-color: #fefefe;
+  margin-bottom:15px;
+}
+
+input::placeholder {
+  font-size: 0.8em;
+  /* font-weight: lighter; */
+  /* background-color: snow; */
+}
+.copyright {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 620px;
+}
+
+button {
+ 
+  background-color: rgb(252, 156, 67);
+  color: #fefefe;
+  padding-top: 11.11px;
+  padding-bottom: 11.11px;
+  outline: 0;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+  display: block;
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    user-select: none;
+    
+}
+button:hover {
+  background-color: rgb(252, 156, 67);
+  color: #fefefe;
+  opacity: 1;
+}
+
+input.error {
+  border: 1px solid #EADAE4;
+}
+
+/* .fullName {
+  margin-right: 1%;
+  
+} */
+
+.fullName,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+   /* display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;  */
+}
+/* .forgot{
+  text-align: right;
+} */
+.fullName {
+  width: 100%;
+}
+.password {
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
